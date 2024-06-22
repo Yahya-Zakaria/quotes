@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body >
+    <aside
+      id="sidebar"
+      class="w-25 h-100 position-fixed top-0 py-5 px-3 rounded-end-4">
+      <ul class="navbar-nav py-5 my-4 d-flex w-100 text-center">
+        <li class="nav-item mb-4 py-1 rounded-pill">
+          <a href="" class="nav-link fw-bold fs-5 py-1">Quote</a>
+        </li>
+        <li class="nav-item mb-4 py-1 rounded-pill">
+          <a href="" class="nav-link fw-bold fs-5 py-1"> Articles </a>
+        </li>
+        <li class="nav-item mb-4 py-1 rounded-pill">
+          <a href="" class="nav-link fw-bold fs-5 py-1">Magazine</a>
+        </li>
+        <li class="nav-item mb-4 py-1 rounded-pill">
+          <a href="" class="nav-link fw-bold fs-5 py-1">The News</a>
+        </li>
+      </ul>
+    </aside>
+    <div class="home w-100 vh-100" >
+      <div class="containerr h-100 w-75 ms-auto d-flex flex-column justify-content-start gap-5 align-items-center " style="padding: 130px 60px;">
+        <div class="quote py-5 px-5 flex-column  rounded-5 py-2 d-flex align-items-center justify-content-center mb-3 text-center shadow-lg" >
+            <p id="content" class="lead mb-4 m-0 fw-medium fs-4"> """click button to next quote""" </p>
+            <p id="author" class="m-0 text-black fw-bolder">autor will be show here</p>
+        </div>
+        <button class="btn rounded-pill px-5 py-2 fs-6 fw-bolder" onclick="next()" >NEXT</button>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

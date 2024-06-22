@@ -1,0 +1,45 @@
+/* varibals */
+:root {
+  --main-color: #1c1c1c;
+  --sc-color: #494e49;
+  --th-color: #739072;
+  --text-color: #ece3ce;
+}
+body{
+    background-color: #3b453b;
+}
+
+#sidebar{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.quote{
+    background-color: #365430;
+}
+
+
+
+li:hover{
+    transition: 0;
+    background-image:linear-gradient(to right bottom , #586757 , #284826) ;
+}
+
+.quote p{
+    background-image: linear-gradient(to right bottom , #ece3ce , #3f723b) ;
+    color: transparent;
+    background-clip: text;
+}
+
+button{
+    border: 1px solid white !important;
+    background-image: linear-gradient(to right bottom , #ece3ce , #3f723b) !important ;
+    color: transparent !important;
+    background-clip: text !important;
+        transition: all 0.5s;
+}
+button:hover{
+    background: #3f723b !important ;
+    border: transparent !important;
+    color: white !important;
+}
